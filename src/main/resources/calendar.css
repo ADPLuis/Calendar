@@ -1,0 +1,50 @@
+.root {
+	-fx-background-color: #ffffff;
+	-fx-font-family: "Courier New";
+	-fx-font-size: 11pt;
+}
+
+.Button:Hover {
+	-fx-effect: drop-shadow(0 0 0.75rem crimson);
+}
+
+#mesLabel {
+	-fx-font-size: 13px;
+	-fx-font-weight: bold;
+}
+
+#anyoLabel {
+	-fx-font-family: "Arial";
+	-fx-font-size: 22pt;
+	-fx-font-weight: bold;
+	-fx-font-color: white;
+	-fx-effect: drop-shadow(0 0 0.75rem crimson);	
+}
+/* dias de la semana */
+#lunesLabel, #martesLabel,#miercolesLabel,#juevesLabel,#viernesLabel,#sabadoLabel,#domingoLabel {
+	-fx-font-weight: bold;
+}
+/* todos los dias */
+#Label1,#Label2,#Label3,#Label4,#Label5,#Label6,#Label7,
+#Label8,#Label9,#Label10,#Label11,#Label12,#Label13,#Label14,
+#Label15,#Label16,#Label17,#Label18,#Label19,#Label20,#Label21,#Label22,#Label23,#Label24,#Label25,
+#Label26,#Label27,#Label28,#Label29,#Label30,#Label31,#Label32,#Label33,#Label34,#Label35,#Label36,
+#Label37,#Label38,#Label39,#Label40,#Label41,#Label42 {
+	-fx-font-style: italic;
+}
+/*dia actual */
+.today {
+	-fx-font-color: black;
+	-fx-font-weight: bold;
+	-fx-border: 10px, dashed;
+	-fx-background-image: linear-gradient(to bottom right, white, orange); 
+
+}
+
+#domingoLabel, #Label7,#Label14,#Label21,#Label28,#Label35,#Label42{
+	-fx-font-color: red;
+}
+
+
+
+/* .algo para las clases #algo para los ids del objeto en especifico  */
